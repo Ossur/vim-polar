@@ -1,8 +1,8 @@
 ; vim: ft=colortemplate
 Full name: polar
 Short name: polar
-Description: White background colorscheme
-Author: Maxim Kim <habamax@gmail.com>
+Description: White background colorscheme (forked from habamax/vim-polar)
+Author: Stephen Huan <stephen03.huan@gmail.com>
 Neovim: yes
 
 
@@ -13,14 +13,14 @@ Background: light
 
 ; Color palette
 Color: comment    #808080 244
-Color: constant   #d75f00 166
+Color: constant   #986801 94
 Color: string     #2a871f 28
 Color: identifier #2f6aea 27
-Color: statement  #ca1243 161
-Color: preproc    #c18401 172
-Color: type       #a626a4 127
+Color: statement  #a626a4 127 
+Color: preproc    #ca1243 161 
+Color: type       #c18401 172
 Color: special    #0184bc 67
-Color: delimiter  #986801 94
+Color: delimiter  #d75f00 166
 
 Color: fg0        #000000 16
 Color: bg0        #ffffff 231
@@ -71,7 +71,7 @@ SpecialKey       bg1        none
 Folded           comment    folded
 Visual           none       visual
 VisualNOS        none       comment
-LineNr           comment    none
+LineNr           bg1        none
 FoldColumn       comment    none
 CursorLine       none       cursorline
 CursorColumn     none       cursorline
@@ -88,7 +88,7 @@ WarningMsg       preproc    none   bold
 MoreMsg          string     none   bold
 Question         string     none   bold
 
-Todo             bg0        comment
+Todo             statement  none
 MatchParen       bg0        special
 Search           bg0        preproc
 IncSearch        bg0        string
@@ -102,8 +102,8 @@ DiffChange       none       none
 DiffText         none       difftext
 DiffDelete       diffdelete none
 
-SpellBad         statement  none   t=underline g=undercurl s=statement
-SpellCap         string     none   t=underline g=undercurl s=string
+SpellBad         error      none   t=underline g=undercurl s=error
+SpellCap         identifier none   t=underline g=undercurl s=identifier
 SpellLocal       special    none   t=underline g=undercurl s=special
 SpellRare        type       none   t=underline g=undercurl s=type
 
@@ -114,21 +114,26 @@ Term colors: comment statement string preproc identifier type special bg0
 
 ;;; syntax
 
-Identifier identifier none
-Statement  statement  none
-Constant   constant   none
-String     string     none
-PreProc    preproc    none
-Special    special    none
-Tag        preproc    none
-Delimiter  delimiter  none
-Type       type       none
-Directory  identifier none bold
-Comment    comment    none
-Conceal    comment    none
-Ignore     none       none
+Identifier   error      none
+Function     identifier none 
+Statement    statement  none
+Label        statement  none
+Constant     string     none
+String       string     none
+Number       constant   none
+Boolean      constant   none
+PreProc      preproc    none
+Special      special    none
+Tag          preproc    none
+Delimiter    delimiter  none
+Type         type       none
+StorageClass statement  none
+Directory    identifier none bold
+Comment      comment    none italic
+Conceal      comment    none
+Ignore       none       none
 
-Title      statement  none bold
+Title        fg0        none bold
 
 qfError                 error none
 colortemplateKey        -> Statement
@@ -140,6 +145,9 @@ helpNotVi               -> Comment
 helpExample             -> PreProc
 gitCommitSummary        -> Title
 cocErrorSign            -> Type
+GitGutterAdd            -> String
+GitGutterChange         -> Number
+GitGutterDelete         -> Identifier
 diffAdded               -> String
 diffRemoved             error none
 asciidoctorOption       comment none

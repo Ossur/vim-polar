@@ -2,7 +2,7 @@
 Full name: polar
 Short name: polar
 Description: White background colorscheme (forked from habamax/vim-polar)
-Author: Stephen Huan <stephen03.huan@gmail.com>
+Author: Stephen Huan <stephen-huan>
 Neovim: yes
 
 
@@ -16,8 +16,8 @@ Color: comment    #808080 244
 Color: constant   #986801 94
 Color: string     #2a871f 28
 Color: identifier #2f6aea 27
-Color: statement  #a626a4 127 
-Color: preproc    #ca1243 161 
+Color: statement  #a626a4 127
+Color: preproc    #ca1243 161
 Color: type       #c18401 172
 Color: special    #0184bc 67
 Color: delimiter  #d75f00 166
@@ -115,7 +115,7 @@ Term colors: comment statement string preproc identifier type special bg0
 ;;; syntax
 
 Identifier   error      none
-Function     identifier none 
+Function     identifier none
 Statement    statement  none
 Label        statement  none
 Constant     string     none

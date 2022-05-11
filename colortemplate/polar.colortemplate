@@ -154,3 +154,8 @@ asciidoctorOption       comment none
 asciidoctorLiteralBlock comment none
 asciidoctorIndented     comment none
 SelectDirectoryPrefix   comment none
+; https://github.com/vim-python/python-syntax/blob/master/syntax/python.vim
+; overwrites pythonInclude because of pyrex.vim
+; https://github.com/lambdalisue/vim-cython-syntax needs pythonInclude so link
+pythonInclude            -> pythonImport
+ExtraWhitespace          -> Error

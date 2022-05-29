@@ -2,7 +2,7 @@
 " Filename: autoload/lightline/colorscheme/polar.vim
 " Author: Stephen Huan <stephen-huan>
 " License: MIT License
-" Last Change: 2019/09/09 22:42:48.
+" Last Change: 2022/05/28 20:24:26.
 " =============================================================================
 
 " Common colors

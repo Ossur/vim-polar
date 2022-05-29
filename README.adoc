@@ -7,6 +7,8 @@
 
 * Forked from https://github.com/habamax/vim-polar[habamax/vim-polar]
 * Modified to look like https://github.com/rakr/vim-one[rakr/vim-one]
+* Lightline theme based on the one theme in
+  https://github.com/itchyny/lightline.vim/blob/master/autoload/lightline/colorscheme/one.vim[itchyny/lightline.vim]
 * Built using awesome https://github.com/lifepillar/vim-colortemplate[Toolkit for Vim Color Scheme Designers!]
 * No fancy background, pure white is here.
 * No syntax with bold or italic, except Title and Directory are bold. Simple.

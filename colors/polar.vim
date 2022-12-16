@@ -63,7 +63,7 @@ hi Visual guifg=NONE guibg=#d0d9ea gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE guibg=#808080 gui=NONE cterm=NONE
 hi LineNr guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-hi CursorLine guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE guibg=#d8d8d8 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
 hi CursorLineNr guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
 hi QuickFixLine guifg=NONE guibg=#e0e4e4 gui=NONE cterm=NONE

@@ -63,8 +63,8 @@ hi Visual guifg=NONE guibg=#d0d9ea gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE guibg=#808080 gui=NONE cterm=NONE
 hi LineNr guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-hi CursorLine guifg=NONE guibg=#d8d8d8 gui=NONE cterm=NONE
-hi CursorColumn guifg=NONE guibg=#d8d8d8  gui=NONE cterm=NONE
+hi CursorLine guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
+hi CursorColumn guifg=NONE guibg=#f0f0f0  gui=NONE cterm=NONE
 hi CursorLineNr guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
 hi QuickFixLine guifg=NONE guibg=#e0e4e4 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -82,8 +82,9 @@ hi IncSearch guifg=#ffffff guibg=#2a871f gui=NONE cterm=NONE
 hi WildMenu guifg=#ffffff guibg=#ca1243 gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
 " Note: Terminal Vim takes cursor color from the terminal settings
-hi Cursor guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
-hi lCursor guifg=#000000 guibg=#986801 gui=NONE cterm=NONE
+"       This gray works well with vim-polar and on a black terminal
+hi Cursor guifg=NONE guibg=#c0c0c0 gui=NONE cterm=NONE
+hi lCursor guifg=NONE guibg=#986801 gui=NONE cterm=NONE
 hi DiffAdd guifg=NONE guibg=#c9f9c9 gui=NONE cterm=NONE
 hi DiffChange guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiffText guifg=NONE guibg=#f9f9c9 gui=NONE cterm=NONE

@@ -81,6 +81,7 @@ hi Search guifg=#ffffff guibg=#ca1243 gui=NONE cterm=NONE
 hi IncSearch guifg=#ffffff guibg=#2a871f gui=NONE cterm=NONE
 hi WildMenu guifg=#ffffff guibg=#ca1243 gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
+" Note: Terminal Vim takes cursor color from the terminal settings
 hi Cursor guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
 hi lCursor guifg=#000000 guibg=#986801 gui=NONE cterm=NONE
 hi DiffAdd guifg=NONE guibg=#c9f9c9 gui=NONE cterm=NONE

@@ -5,7 +5,8 @@
 :!source-linenums-option:
 :imagesdir: images
 
-* Forked from https://github.com/habamax/vim-polar[habamax/vim-polar]
+* Forked from https://github.com/habamax/vim-polar[stephen-huan/vim-polar]
+* Darker highlightline
 * Modified to look like https://github.com/rakr/vim-one[rakr/vim-one]
 * Lightline theme based on the one theme in
   https://github.com/itchyny/lightline.vim/blob/master/autoload/lightline/colorscheme/one.vim[itchyny/lightline.vim]

@@ -26,7 +26,7 @@ Color: fg0        #000000 16
 Color: bg0        #ffffff 231
 Color: bg1        #cacbcc 251
 Color: folded     #e0e4e4 254
-Color: cursorline #f4f4f4 254
+Color: cursorline #d8d8d8 254
 Color: visual     #d0d9ea 153
 Color: error      #d70000 160
 Color: diffadd    #c9f9c9 194
